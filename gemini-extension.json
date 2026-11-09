@@ -1,0 +1,11 @@
+{
+  "name": "slashml-memory",
+  "version": "1.0.11",
+  "description": "Sub-millisecond persistent memory, relational graph, and code-recall MCP server and skill for AI coding agents.",
+  "mcpServers": {
+    "ml-memory": {
+      "command": "node",
+      "args": ["hooks/slashml-mcp.js"]
+    }
+  }
+}
